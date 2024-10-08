@@ -90,15 +90,15 @@ classDiagram
   
 
 #### 1. 회원 가입
-- **URL**: `/api/v1/members/signup`
+- **URL**: `/api/v1/register`
 - **Method**: `POST`
 - **Request Body**:
 
 ```json
 {
-"id": "string",
-"password": "string",
-"nickname": "string"
+	"id": "string",
+	"password": "string",
+	"nickname": "string"
 }
 ```
 
@@ -109,8 +109,8 @@ classDiagram
 
 ```json
 {
-"id": "string",
-"password": "string"
+	"id": "string",
+	"password": "string"
 }
 ```
 
@@ -131,11 +131,11 @@ classDiagram
 - **Request Body**:
 ```json
 {
-"name": "string",
-"purchaseDate": "LocalDateTime",
-"expirationDate": "LocalDateTime",
-"memo": "string",
-"useStatus": "tinyint",
+	"name": "string",
+	"purchaseDate": "LocalDateTime",
+	"expirationDate": "LocalDateTime",
+	"memo": "string",
+	"useStatus": "tinyint",
 }
 ```
 
@@ -149,11 +149,11 @@ classDiagram
 
 ```json
 {
-"name": "string",
-"purchaseDate": "LocalDateTime",
-"expirationDate": "LocalDateTime",
-"memo": "string",
-"useStatus": "tinyint",
+	"name": "string",
+	"purchaseDate": "LocalDateTime",
+	"expirationDate": "LocalDateTime",
+	"memo": "string",
+	"useStatus": "tinyint",
 }
 ```
 
@@ -173,12 +173,12 @@ classDiagram
 
 ```json
 {
-"foodId": "Long",
-"name": "string",
-"purchaseDate": "LocalDateTime",
-"expirationDate": "LocalDateTime",
-"memo": "string",
-"useStatus": "tinyint",
+	"foodId": "Long",
+	"name": "string",
+	"purchaseDate": "LocalDateTime",
+	"expirationDate": "LocalDateTime",
+	"memo": "string",
+	"useStatus": "tinyint",
 }
 ```
 </details>
@@ -197,12 +197,12 @@ classDiagram
 ```json
 
 {
-"name": "string",
-"purchaseDate": "LocalDateTime",
-"lifeExpectancy": "int",
-"breakdown": "string",
-"memo": "string",
-"useStatus": "tinyint",
+	"name": "string",
+	"purchaseDate": "LocalDateTime",
+	"lifeExpectancy": "int",
+	"breakdown": "string",
+	"memo": "string",
+	"useStatus": "tinyint",
 }
 ```
 
@@ -212,12 +212,12 @@ classDiagram
 - **Request Body**:
 ```json
 {
-"name": "string",
-"purchaseDate": "LocalDateTime",
-"lifeExpectancy": "int",
-"breakdown": "string",
-"memo": "string",
-"useStatus": "tinyint",
+	"name": "string",
+	"purchaseDate": "LocalDateTime",
+	"lifeExpectancy": "int",
+	"breakdown": "string",
+	"memo": "string",
+	"useStatus": "tinyint",
 }
 ```
 
@@ -232,13 +232,13 @@ classDiagram
 
 ```json
 {
-"electronicsId": "Long",
-"name": "string",
-"purchaseDate": "LocalDateTime",
-"lifeExpectancy": "int",
-"breakdown": "string",
-"memo": "string",
-"useStatus": "tinyint",
+	"electronicsId": "Long",
+	"name": "string",
+	"purchaseDate": "LocalDateTime",
+	"lifeExpectancy": "int",
+	"breakdown": "string",
+	"memo": "string",
+	"useStatus": "tinyint",
 }
 ```
 </details>
@@ -254,11 +254,11 @@ classDiagram
 - **Request Body**:
 ```json
 {
-"name": "string",
-"medicationPeriod": "string",
-"prescription": "tinyint",
-"purchaseDate": "LocalDateTime",
-"memo": "string"
+	"name": "string",
+	"medicationPeriod": "string",
+	"prescription": "tinyint",
+	"purchaseDate": "LocalDateTime",
+	"memo": "string"
 }
 ```
 
@@ -274,12 +274,12 @@ classDiagram
 
 ```json
 {
-"name": "string",
-"purchaseDate": "LocalDateTime",
-"lifeExpectancy": "int",
-"breakdown": "string",
-"memo": "string",
-"useStatus": "tinyint",
+	"name": "string",
+	"purchaseDate": "LocalDateTime",
+	"lifeExpectancy": "int",
+	"breakdown": "string",
+	"memo": "string",
+	"useStatus": "tinyint",
 }
 ```
 
@@ -298,12 +298,12 @@ classDiagram
 - **Request Body**:
 ```json
 {
-"medicineId": "Long",
-"name": "string",
-"medicationPeriod": "string",
-"prescription": "tinyint",
-"purchaseDate": "LocalDateTime",
-"memo": "string"
+	"medicineId": "Long",
+	"name": "string",
+	"medicationPeriod": "string",
+	"prescription": "tinyint",
+	"purchaseDate": "LocalDateTime",
+	"memo": "string"
 }
 ```
 </details>
@@ -320,11 +320,11 @@ classDiagram
 
 ```json
 {
-"name": "string",
-"purchaseDate": "LocalDateTime",
-"lifeExpectancy": "int",
-"memo": "string",
-"useStatus": "tinyint"
+	"name": "string",
+	"purchaseDate": "LocalDateTime",
+	"lifeExpectancy": "int",
+	"memo": "string",
+	"useStatus": "tinyint"
 }
 ```
 
@@ -337,11 +337,11 @@ classDiagram
 
 ```json
 {
-"name": "string",
-"purchaseDate": "LocalDateTime",
-"lifeExpectancy": "int",
-"memo": "string",
-"useStatus": "tinyint"
+	"name": "string",
+	"purchaseDate": "LocalDateTime",
+	"lifeExpectancy": "int",
+	"memo": "string",
+	"useStatus": "tinyint"
 }
 ```
 
@@ -356,12 +356,12 @@ classDiagram
 
 ```json
 {
-"necessariesId": "Long",
-"name": "string",
-"purchaseDate": "LocalDateTime",
-"lifeExpectancy": "int",
-"memo": "string",
-"useStatus": "tinyint"
+	"necessariesId": "Long",
+	"name": "string",
+	"purchaseDate": "LocalDateTime",
+	"lifeExpectancy": "int",
+	"memo": "string",
+	"useStatus": "tinyint"
 }
 ```
 </details>
